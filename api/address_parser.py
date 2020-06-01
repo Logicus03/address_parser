@@ -20,7 +20,7 @@ def address_parser(address):
     
     return convert_json(
         parse_address( 
-            expand_address(address)[0]
+            expand_address(address, languages=('es') )[0]
             )
         )
 
