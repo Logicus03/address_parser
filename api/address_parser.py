@@ -11,7 +11,7 @@ from postal.parser import parse_address
 from postal.expand import expand_address
 from werkzeug.exceptions import BadRequest, InternalServerError
 
-parser_blueprint = Blueprint("address_parser", __name__, url_prefix="/api/parse")
+parser_blueprint = Blueprint("address_parser", __name__)
 
 def convert_json(address):
     return {k: v for (v, k) in address}
@@ -24,7 +24,7 @@ def address_parser(address):
             )
         )
 
-@parser_blueprint.route("", methods=["POST"])
+@parser_blueprint.route("/parse", methods=["POST"])
 def address_parse():
 
     if request.method == 'POST':

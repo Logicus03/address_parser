@@ -14,6 +14,7 @@ from address_parser import parser_blueprint
 def create_app():    
     # Create the application instance
     app = Flask(__name__) 
+    # app.config['APPLICATION_ROOT'] = '/api/v1'
 
     @app.errorhandler(HTTPException)
     def handle_exception(e):
@@ -29,7 +30,8 @@ def create_app():
         response.content_type = "application/json"
         return response
         
-    app.register_blueprint(parser_blueprint)
+    # /api/v1/parser
+    app.register_blueprint(parser_blueprint, url_prefix="/api/v1")
 
     @app.route('/', methods=['GET'])
     def index():
