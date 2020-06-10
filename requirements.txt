@@ -1,74 +1,8 @@
-# packages in environment at /home/logicus03/anaconda3/envs/flask:
-#
-# Name                    Version                   Build  Channel
-_libgcc_mutex             0.1                        main  
-alembic                   0.8.9                    pypi_0    pypi
-aniso8601                 7.0.0                    pypi_0    pypi
-asn1crypto                0.24.0                   pypi_0    pypi
-ca-certificates           2020.4.5.1           hecc5488_0    conda-forge
-cachecontrol              0.12.5                   pypi_0    pypi
-cachetools                3.1.1                    pypi_0    pypi
-certifi                   2019.06.16               pypi_0    pypi
-cffi                      1.12.3                   pypi_0    pypi
-chardet                   3.0.4                    pypi_0    pypi
-class-registry            2.1.2                    pypi_0    pypi
-click                     7.0                      pypi_0    pypi
-clickclick                1.2.2                    pypi_0    pypi
-connexion                 2.3.0                    pypi_0    pypi
-cryptography              2.7                      pypi_0    pypi
-curl                      7.69.1               h33f0ec9_0    conda-forge
-fastavro                  0.22.3                   pypi_0    pypi
-filters                   1.3.2                    pypi_0    pypi
-firebase-admin            2.17.0                   pypi_0    pypi
-flask                     1.1.1                    pypi_0    pypi
-grpcio                    1.22.0                   pypi_0    pypi
-httplib2                  0.13.1                   pypi_0    pypi
-idna                      2.8                      pypi_0    pypi
-inflection                0.3.1                    pypi_0    pypi
-injector                  0.17.0                   pypi_0    pypi
-itsdangerous              1.1.0                    pypi_0    pypi
-jinja2                    2.10.1                   pypi_0    pypi
-jsonschema                2.6.0                    pypi_0    pypi
-krb5                      1.17.1               h173b8e3_0  
-libcurl                   7.69.1               hf7181ac_0    conda-forge
-libedit                   3.1.20181209         hc058e9b_0  
-libffi                    3.2.1                hd88cf55_4  
-libgcc-ng                 9.1.0                hdf63c60_0  
-libpostal                 1.1.0                h38d415c_2    conda-forge
-libssh2                   1.9.0                hab1572f_2    conda-forge
-libstdcxx-ng              9.1.0                hdf63c60_0  
-mako                      1.0.6                    pypi_0    pypi
-markupsafe                0.23                     pypi_0    pypi
-msgpack                   0.6.1                    pypi_0    pypi
-ncurses                   6.1                  he6710b0_1  
-openapi-spec-validator    0.2.8                    pypi_0    pypi
-openssl                   1.1.1g               h516909a_0    conda-forge
-pip                       19.2.1                   pypi_0    pypi
-postal                    1.1.8            py37h8f50634_0    conda-forge
-protobuf                  3.9.0                    pypi_0    pypi
-pyasn1                    0.4.6                    pypi_0    pypi
-pyasn1-modules            0.2.6                    pypi_0    pypi
-pycparser                 2.17                     pypi_0    pypi
-pyopenssl                 19.0.0                   pypi_0    pypi
-pyota                     2.0.7                    pypi_0    pypi
-pysha3                    1.0.2                    pypi_0    pypi
-python                    3.7.3                h0371630_0  
-python-dateutil           2.8.0                    pypi_0    pypi
-python-editor             1.0.3                    pypi_0    pypi
-python_abi                3.7                     1_cp37m    conda-forge
-pytz                      2019.2                   pypi_0    pypi
-pyyaml                    5.1.2                    pypi_0    pypi
-readline                  7.0                  h7b6447c_5  
-regex                     2019.6.8                 pypi_0    pypi
-requests                  2.22.0                   pypi_0    pypi
-rsa                       4.0                      pypi_0    pypi
-setuptools                41.0.1                   py37_0  
-six                       1.10.0                   pypi_0    pypi
-tk                        8.6.8                hbc83047_0  
-typing                    3.7.4                    pypi_0    pypi
-uritemplate               3.0.0                    pypi_0    pypi
-urllib3                   1.25.3                   pypi_0    pypi
-werkzeug                  0.15.5                   pypi_0    pypi
-wheel                     0.33.4                   py37_0  
-xz                        5.2.4                h14c3975_4  
-zlib                      1.2.11               h7b6447c_3  
+click==7.1.2
+Flask==1.1.2
+itsdangerous==1.1.0
+Jinja2==2.11.2
+MarkupSafe==1.1.1
+postal==1.1.8
+six==1.15.0
+Werkzeug==1.0.1
